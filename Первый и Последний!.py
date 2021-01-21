@@ -1,6 +1,6 @@
 def my_func(my_list):
     for x in my_list:
-        print(x)
+        print(list(x))
         print("первое число:", x[0])
         print("последнее число:", x[-1])
 
